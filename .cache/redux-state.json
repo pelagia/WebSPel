@@ -196,11 +196,167 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-emotion": {
+      "resolve": "/Users/pelagia-sykoudi/Desktop/webSPel/node_modules/gatsby-plugin-emotion",
+      "id": "Plugin gatsby-plugin-emotion",
+      "name": "gatsby-plugin-emotion",
+      "version": "2.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/pelagia-sykoudi/Desktop/webSPel/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "2.0.5",
+        "main": "index.js",
+        "keywords": [
+          "emotion",
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "emotion",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "emotion-server",
+            "version": "7 || 8 || 9"
+          },
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dc11cf3c0b474aa6ad1dc4ee578f35d1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/pelagia-sykoudi/Desktop/webSPel/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.0",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/pelagia-sykoudi/Desktop/webSPel/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c07766b64546e514177d36745fcf949a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/pelagia-sykoudi/Desktop/webSPel",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d41d8cd98f00b204e9800998ecf8427e",
+      "version": "23b91ef75ea2dc9dc13b9b9dd08f89cb",
       "pluginOptions": {
         "plugins": []
       },
@@ -214,8 +370,24 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "emotion",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "emotion-server",
+            "version": "^9.2.12"
+          },
+          {
             "name": "gatsby",
             "version": "^2.0.0"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^2.0.5"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.0"
           },
           {
             "name": "react",
@@ -224,6 +396,26 @@
           {
             "name": "react-dom",
             "version": "^16.5.1"
+          },
+          {
+            "name": "react-emotion",
+            "version": "^9.2.12"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-fairy-gates",
+            "version": "^0.15.11"
+          },
+          {
+            "name": "typography-theme-kirkham",
+            "version": "^0.16.3"
           }
         ],
         "devDependencies": [],
@@ -234,7 +426,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c3ed40eca18e81ab3df87ddc2a65cabe",
+        "contentDigest": "3670e0c6a90658e9340c220fb5528c4a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -243,7 +435,7 @@
       "resolve": "/Users/pelagia-sykoudi/Desktop/webSPel/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.1",
+      "version": "2.0.0",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages",
@@ -258,13 +450,16 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.1",
+        "version": "2.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -326,23 +521,25 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "73aecaf4675f67a7c9e394f30c0fec35",
+        "contentDigest": "c64462bc73d2b60e4b0f61419efae384",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
-      "siteMetadata": {},
+      "siteMetadata": {
+        "title": "Title from siteMetadata"
+      },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-06T20:32:01.730Z",
+      "buildTime": "2018-10-07T10:28:28.137Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "76b1594778bcb05fca8aee75320a1b6c",
+        "contentDigest": "e80d922f91df058ec6b46e31ef0a95e9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -406,38 +603,117 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /philosophy/": {
+      "jsonName": "philosophy-6bb",
+      "internalComponentName": "ComponentPhilosophy",
+      "path": "/philosophy/",
+      "component": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/philosophy.js",
+      "componentChunkName": "component---src-pages-philosophy-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/philosophy.js",
+      "id": "SitePage /philosophy/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "07d163dd05bd5cdcd1b24051321070f9",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /plato/": {
+      "jsonName": "plato-ecd",
+      "internalComponentName": "ComponentPlato",
+      "path": "/plato/",
+      "component": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/plato.js",
+      "componentChunkName": "component---src-pages-plato-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/plato.js",
+      "id": "SitePage /plato/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8daa9b8bc828c1f0413ab6d3153170e9",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /history/": {
+      "jsonName": "history-dc6",
+      "internalComponentName": "ComponentHistory",
+      "path": "/history/",
+      "component": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/history.js",
+      "componentChunkName": "component---src-pages-history-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/history.js",
+      "id": "SitePage /history/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dff7831312d0b9e7f66d1b3e4c033c87",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4c0e2792f53fcc2f2e8736a51b419444"
+    "PLUGINS_HASH": "fdedf0ce070e5b62e39939ab8d89625b"
   },
   "componentDataDependencies": {
-    "nodes": {},
+    "nodes": {
+      "Site": [
+        "/about/"
+      ]
+    },
     "connections": {}
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contanct-569": "93/path---contanct-569-4b8-NZuapzHg3X9TaN1iIixfv1W23E"
+    "about-f34": "945/path---about-f-34-4c2-NlcTIqbkx0WikHfIB03t4sakr4",
+    "contanct-569": "93/path---contanct-569-4b8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "philosophy-6bb": "135/path---philosophy-6-bb-d4f-NZuapzHg3X9TaN1iIixfv1W23E",
+    "plato-ecd": "925/path---plato-ecd-9ed-NZuapzHg3X9TaN1iIixfv1W23E",
+    "history-dc6": "723/path---history-dc-6-fea-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/index.js"
-    },
     "/Users/pelagia-sykoudi/Desktop/webSPel/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/.cache/dev-404-page.js"
     },
     "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/about.js": {
-      "query": "",
+      "query": "query usersPelagiaSykoudiDesktopWebSPelSrcPagesAboutJs1237290536 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/about.js"
     },
     "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/contanct.js": {
       "query": "",
       "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/contanct.js"
+    },
+    "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/index.js"
+    },
+    "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/philosophy.js": {
+      "query": "",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/philosophy.js"
+    },
+    "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/plato.js": {
+      "query": "",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/plato.js"
+    },
+    "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/history.js": {
+      "query": "",
+      "componentPath": "/Users/pelagia-sykoudi/Desktop/webSPel/src/pages/history.js"
     }
   },
   "staticQueryComponents": {}

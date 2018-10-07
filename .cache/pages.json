@@ -18,5 +18,20 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-history-js",
+        "jsonName": "history-dc6",
+        "path": "/history/"
+    },
+    {
+        "componentChunkName": "component---src-pages-philosophy-js",
+        "jsonName": "philosophy-6bb",
+        "path": "/philosophy/"
+    },
+    {
+        "componentChunkName": "component---src-pages-plato-js",
+        "jsonName": "plato-ecd",
+        "path": "/plato/"
     }
 ]
